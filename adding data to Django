@@ -1,0 +1,9 @@
+python manage.py shell
+
+from attendence.models import attendence
+article.objects.all()
+from django.utils import timezone
+a=attendence(Machine id="var" ,School id="var",Attendence="var",Tot_no="var",time="var" )
+a
+a.save()
+similarly for registration
