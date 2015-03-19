@@ -1,0 +1,15 @@
+# Models.py 
+
+from django.py import models
+
+class Registration(models.models) :
+
+School id = models.IntegerField
+Tot_no= models.IntegerField
+
+class Attendence(models.models) :
+Machine id = models.IntegerField
+School id = models.charfield(max_length=100)
+Attendence= models.IntegerField
+Tot_no= models.charfield(max_length=100)
+time= models.IntegerField
