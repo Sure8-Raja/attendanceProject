@@ -1,0 +1,22 @@
+#installing pip
+easy_install pip 
+
+#installing virtual env with pip
+pip install virtualenv
+
+# making a virtual enviroment for our operations
+mkdir /env
+virtualenv /env/mymedia
+source /env/mymedia/bin/activate
+
+# installing requirements
+$ pip install -r requirements.txt
+
+#for adding the modifications
+python mymedia/manage.py syncdb
+
+#making migrations
+python mymedia/manage.py migrate
+
+#running the server
+python mymedia/manage.py runserver 8080
